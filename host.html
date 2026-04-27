@@ -661,7 +661,370 @@ const EXAMPLE_QUESTIONS = [
     answer: "A",
     acceptedAnswers: ["A"],
     explanation: "Creatine is synthesized from glycine, arginine, and methionine (via SAM)."
+  },
+  {
+    id: "eq-11", type: "mcq", co: "CO2.2", points: 10, timeLimit: 35,
+    text: "Fumarate released from argininosuccinate enters which metabolic pathway?",
+    options: [
+      "Glycolysis",
+      "Fatty acid synthesis",
+      "TCA (Krebs) cycle",
+      "Direct gluconeogenesis"
+    ],
+    answer: "C",
+    acceptedAnswers: ["C"],
+    explanation: "Fumarate enters the TCA cycle, linking urea cycle with energy metabolism via the aspartate–argininosuccinate shunt."
+  },
+
+  {
+    id: "eq-12", type: "mcq", co: "CO2.2", points: 10, timeLimit: 35,
+    text: "A neonate with hyperammonaemia, absent citrulline, and no orotic aciduria most likely has deficiency of:",
+    options: [
+      "Argininosuccinate synthetase",
+      "OTC",
+      "CPS-I",
+      "Arginase"
+    ],
+    answer: "C",
+    acceptedAnswers: ["C"],
+    explanation: "CPS-I deficiency causes severe hyperammonaemia with low citrulline and no orotic aciduria (mitochondrial step affected)."
+  },
+
+  {
+    id: "eq-13", type: "mcq", co: "CO2.2", points: 10, timeLimit: 35,
+    text: "Which statement about female carriers of OTC deficiency is correct?",
+    options: [
+      "Females are never affected",
+      "Heterozygous females can have symptoms due to lyonisation",
+      "Only males are symptomatic",
+      "Females always have severe neonatal onset"
+    ],
+    answer: "B",
+    acceptedAnswers: ["B"],
+    explanation: "Random X-inactivation (lyonisation) causes variable expression of OTC deficiency in heterozygous females."
+  },
+
+  {
+    id: "eq-14", type: "mcq", co: "CO2.2", points: 10, timeLimit: 35,
+    text: "Citrullinemia type I is caused by deficiency of:",
+    options: [
+      "Ornithine transcarbamylase",
+      "Argininosuccinate synthetase",
+      "Argininosuccinate lyase",
+      "Arginase"
+    ],
+    answer: "B",
+    acceptedAnswers: ["B"],
+    explanation: "Argininosuccinate synthetase deficiency blocks citrulline conversion leading to citrullinemia type I."
+  },
+
+  {
+    id: "eq-15", type: "mcq", co: "CO2.2", points: 10, timeLimit: 35,
+    text: "Argininaemia (arginase deficiency) presents differently because:",
+    options: [
+      "Severe hyperammonaemia",
+      "Guanidino compounds accumulate and hyperammonaemia is mild",
+      "It causes orotic aciduria",
+      "It presents only in neonates"
+    ],
+    answer: "B",
+    acceptedAnswers: ["B"],
+    explanation: "Arginase deficiency leads to accumulation of guanidino compounds with comparatively mild hyperammonaemia."
+  },
+
+  {
+    id: "eq-16", type: "mcq", co: "CO2.2", points: 10, timeLimit: 35,
+    text: "Sodium benzoate lowers ammonia by conjugating with which amino acid?",
+    options: [
+      "Glutamine",
+      "Arginine",
+      "Glycine",
+      "Lysine"
+    ],
+    answer: "C",
+    acceptedAnswers: ["C"],
+    explanation: "Sodium benzoate conjugates glycine to form hippurate, facilitating nitrogen excretion."
+  },
+
+  {
+    id: "eq-17", type: "mcq", co: "CO2.2", points: 10, timeLimit: 35,
+    text: "A 4-month-old infant with chronic diarrhea, dermatitis, alopecia after weaning is most likely due to:",
+    options: [
+      "Acrodermatitis enteropathica affecting tryptophan metabolism",
+      "Hartnup disease causing neutral amino acid malabsorption",
+      "Maple Syrup Urine Disease",
+      "Cystinuria"
+    ],
+    answer: "B",
+    acceptedAnswers: ["B"],
+    explanation: "Hartnup disease causes defective transport of neutral amino acids, leading to pellagra-like features."
+  },
+
+  {
+    id: "eq-18", type: "mcq", co: "CO2.2", points: 10, timeLimit: 35,
+    text: "In Maple Syrup Urine Disease, the amino acid mainly responsible for neurotoxicity is:",
+    options: [
+      "Valine",
+      "Isoleucine",
+      "Leucine",
+      "Methionine"
+    ],
+    answer: "C",
+    acceptedAnswers: ["C"],
+    explanation: "Leucine is the most neurotoxic branched-chain amino acid in MSUD causing encephalopathy."
+  },
+
+  {
+    id: "eq-19", type: "mcq", co: "CO2.2", points: 10, timeLimit: 35,
+    text: "A child with succinylacetone in urine most likely has deficiency of:",
+    options: [
+      "Tyrosine aminotransferase",
+      "Homogentisate oxidase",
+      "Fumarylacetoacetate hydrolase",
+      "Phenylalanine hydroxylase"
+    ],
+    answer: "C",
+    acceptedAnswers: ["C"],
+    explanation: "Fumarylacetoacetate hydrolase deficiency causes tyrosinemia type I with succinylacetone accumulation."
+  },
+
+  {
+    id: "eq-20", type: "mcq", co: "CO2.1", points: 10, timeLimit: 35,
+    text: "A child with PKU must follow which dietary modification?",
+    options: [
+      "Restrict tyrosine and methionine",
+      "Restrict phenylalanine and supplement tyrosine",
+      "Restrict leucine only",
+      "Increase tryptophan intake"
+    ],
+    answer: "B",
+    acceptedAnswers: ["B"],
+    explanation: "PKU requires phenylalanine restriction and tyrosine supplementation due to PAH deficiency."
+  },
+
+  {
+    id: "eq-21", type: "mcq", co: "CO2.1", points: 10, timeLimit: 35,
+    text: "A patient with generalized hypopigmentation, photophobia and visual defects likely has deficiency of:",
+    options: [
+      "Phenylalanine hydroxylase",
+      "Tyrosinase",
+      "Homogentisate oxidase",
+      "Dihydropteridine reductase"
+    ],
+    answer: "B",
+    acceptedAnswers: ["B"],
+    explanation: "Tyrosinase deficiency impairs melanin synthesis leading to albinism."
+  },
+    {
+    id: "eq-22", type: "mcq", co: "CO2.2", points: 10, timeLimit: 35,
+    text: "A 40-year-old man with dark urine on standing, ochronosis and arthritis most likely has accumulation of:",
+    options: [
+      "Phenylpyruvate",
+      "Homocysteine",
+      "Homogentisic acid",
+      "Succinylacetone"
+    ],
+    answer: "C",
+    acceptedAnswers: ["C"],
+    explanation: "Homogentisic acid accumulates in alkaptonuria due to homogentisate oxidase deficiency, causing ochronosis and arthritis."
+  },
+
+  {
+    id: "eq-23", type: "mcq", co: "CO2.2", points: 10, timeLimit: 35,
+    text: "A patient with marfanoid habitus, lens subluxation and homocystinuria most likely has deficiency of:",
+    options: [
+      "Cystathionine β-synthase",
+      "Methionine synthase",
+      "Homogentisate oxidase",
+      "Branched-chain ketoacid dehydrogenase"
+    ],
+    answer: "A",
+    acceptedAnswers: ["A"],
+    explanation: "CBS deficiency blocks transsulfuration pathway causing homocystinuria with thromboembolism and lens dislocation."
+  },
+
+  {
+    id: "eq-24", type: "mcq", co: "CO2.2", points: 10, timeLimit: 35,
+    text: "In BH4-deficient PKU, in addition to phenylalanine restriction, which is required?",
+    options: [
+      "Histidine supplementation",
+      "Dopamine and serotonin precursor supplementation",
+      "Vitamin C only",
+      "Homogentisic acid supplementation"
+    ],
+    answer: "B",
+    acceptedAnswers: ["B"],
+    explanation: "BH4 deficiency affects neurotransmitter synthesis (dopamine, serotonin), requiring their precursor replacement."
+  },
+
+  {
+    id: "eq-25", type: "mcq", co: "CO2.2", points: 10, timeLimit: 35,
+    text: "A child with palmoplantar hyperkeratosis and corneal ulcers most likely has:",
+    options: [
+      "Tyrosinemia type II",
+      "Alkaptonuria",
+      "PKU",
+      "MSUD"
+    ],
+    answer: "A",
+    acceptedAnswers: ["A"],
+    explanation: "Tyrosinemia type II due to tyrosine aminotransferase deficiency causes skin and eye lesions."
+  },
+
+  {
+    id: "eq-26", type: "mcq", co: "CO2.2", points: 10, timeLimit: 35,
+    text: "A neonate with liver failure, renal dysfunction and cabbage-like odor has diagnostic metabolite:",
+    options: [
+      "Homogentisate",
+      "Succinylacetone",
+      "Phenylacetate",
+      "Branched-chain ketoacids"
+    ],
+    answer: "B",
+    acceptedAnswers: ["B"],
+    explanation: "Succinylacetone accumulation is diagnostic of tyrosinemia type I (fumarylacetoacetate hydrolase deficiency)."
+  },
+
+  {
+    id: "eq-27", type: "mcq", co: "CO2.2", points: 10, timeLimit: 35,
+    text: "In hypermethioninemia, which amino acid supplementation promotes alternative metabolism?",
+    options: [
+      "Glycine",
+      "Cysteine",
+      "Tyrosine",
+      "Histidine"
+    ],
+    answer: "B",
+    acceptedAnswers: ["B"],
+    explanation: "Cysteine becomes essential in methionine cycle defects as transsulfuration is impaired."
+  },
+
+  {
+    id: "eq-28", type: "mcq", co: "CO2.2", points: 10, timeLimit: 35,
+    text: "Which vitamin may improve some cases of maple syrup urine disease?",
+    options: [
+      "Thiamine (B1)",
+      "Riboflavin",
+      "Vitamin C",
+      "Vitamin K"
+    ],
+    answer: "A",
+    acceptedAnswers: ["A"],
+    explanation: "Thiamine acts as cofactor for branched-chain α-ketoacid dehydrogenase complex."
+  },
+
+  {
+    id: "eq-29", type: "mcq", co: "CO2.2", points: 10, timeLimit: 35,
+    text: "In albinism, increased risk of complications is mainly due to:",
+    options: [
+      "Kidney stones",
+      "UV sensitivity leading to skin cancers",
+      "Hyperammonemia",
+      "Atherosclerosis"
+    ],
+    answer: "B",
+    acceptedAnswers: ["B"],
+    explanation: "Melanin deficiency reduces UV protection leading to increased skin cancer risk."
+  },
+
+  {
+    id: "eq-30", type: "mcq", co: "CO2.2", points: 10, timeLimit: 35,
+    text: "Alkaptonuria affects which metabolic pathway?",
+    options: [
+      "Branched-chain amino acid degradation",
+      "Aromatic amino acid degradation",
+      "Urea cycle",
+      "Methionine cycle"
+    ],
+    answer: "B",
+    acceptedAnswers: ["B"],
+    explanation: "Alkaptonuria is a defect in tyrosine and phenylalanine (aromatic amino acid) degradation."
+  },
+
+  {
+    id: "eq-31", type: "mcq", co: "CO2.2", points: 10, timeLimit: 35,
+    text: "The characteristic odor in maple syrup urine disease is due to:",
+    options: [
+      "Homogentisic acid",
+      "Sotolon",
+      "Succinylacetone",
+      "Phenylacetate"
+    ],
+    answer: "B",
+    acceptedAnswers: ["B"],
+    explanation: "Sotolon contributes to the sweet maple syrup odor in MSUD."
+  },
+
+  {
+    id: "eq-32", type: "mcq", co: "CO2.2", points: 10, timeLimit: 35,
+    text: "The most life-threatening complication of untreated homocystinuria is:",
+    options: [
+      "Hyperpigmentation",
+      "Renal failure",
+      "Thromboembolism",
+      "Cataract only"
+    ],
+    answer: "C",
+    acceptedAnswers: ["C"],
+    explanation: "Homocystinuria leads to endothelial damage and thrombosis causing life-threatening embolic events."
+  },
+
+  {
+    id: "eq-33", type: "mcq", co: "CO2.1", points: 10, timeLimit: 35,
+    text: "In albinism, the blocked step is:",
+    options: [
+      "Tyrosine → DOPA",
+      "Phenylalanine → Tyrosine",
+      "Homogentisate → Maleylacetoacetate",
+      "Methionine → Homocysteine"
+    ],
+    answer: "A",
+    acceptedAnswers: ["A"],
+    explanation: "Tyrosinase deficiency blocks conversion of tyrosine to DOPA in melanin synthesis."
+  },
+
+  {
+    id: "eq-34", type: "mcq", co: "CO2.1", points: 10, timeLimit: 35,
+    text: "Poorly controlled maternal PKU most commonly causes in fetus:",
+    options: [
+      "Neural tube defects only",
+      "Congenital heart disease and microcephaly",
+      "Alkaptonuria",
+      "Hyperuricemia"
+    ],
+    answer: "B",
+    acceptedAnswers: ["B"],
+    explanation: "Maternal phenylalanine toxicity causes teratogenic effects including microcephaly and congenital heart disease."
+  },
+
+  {
+    id: "eq-35", type: "mcq", co: "CO2.2", points: 10, timeLimit: 35,
+    text: "Nitisinone in tyrosinemia type I inhibits:",
+    options: [
+      "Tyrosinase",
+      "4-hydroxyphenylpyruvate dioxygenase",
+      "Phenylalanine hydroxylase",
+      "Cystathionine synthase"
+    ],
+    answer: "B",
+    acceptedAnswers: ["B"],
+    explanation: "Nitisinone blocks 4-hydroxyphenylpyruvate dioxygenase preventing toxic metabolite formation."
+  },
+
+  {
+    id: "eq-36", type: "mcq", co: "CO2.2", points: 10, timeLimit: 35,
+    text: "In MSUD, fasting is dangerous because it:",
+    options: [
+      "Increases tyrosine accumulation",
+      "Increases branched-chain amino acids due to protein catabolism",
+      "Increases homogentisic acid",
+      "Decreases melanin synthesis"
+    ],
+    answer: "B",
+    acceptedAnswers: ["B"],
+    explanation: "Fasting increases endogenous protein breakdown raising toxic branched-chain amino acids in MSUD."
   }
+
 
 ];
   /* ─────────────────────────────────────────────────────
